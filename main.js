@@ -11,12 +11,7 @@ jogadores.forEach(
 
         const jogador_nome = document.createElement('p');
         jogador_nome.textContent = ele.nome;
-            
-        jogador_imagem.dataset.elenco = ele.elenco;
-        jogador_imagem.dataset.nome = ele.nome;
-        jogador_imagem.dataset.posicao = ele.posicao;
-        jogador_imagem.dataset.imagem = ele.imagem;
-
+        
         jogador_div.appendChild(jogador_imagem);
         jogador_div.appendChild(jogador_nome);
 
@@ -27,3 +22,12 @@ jogadores.forEach(
         }
     }
 );
+
+const redirecionarPagina = function(event) {
+    if (event.target.tagName === 'IMG') {
+        window.location.href = 'detalhes.html';
+    }
+    };
+  
+    div_elenco_masc.addEventListener('click', redirecionarPagina);
+    div_elenco_fem.addEventListener('click', redirecionarPagina);
