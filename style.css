@@ -1,1 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Nunito:wght@400;600&display=swap');
+
+.container {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 10px;
+    text-align: center;
+    color: white;
+    max-width: 100%;
+    height: auto;
+}
+
+body{
+    background-color: black;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: bold;
+}
+
+h1, h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
