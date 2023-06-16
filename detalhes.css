@@ -1,0 +1,62 @@
+.container_detalhaes{
+
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    grid-gap: 10px;
+    text-align: center;
+    color: white;
+    max-width: 100%;
+    height: auto;
+}
+
+
+html, body {
+    height: 100%;
+}
+
+.posi {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.botao {
+        /* Cor de fundo */
+        background-color: #F00;
+    
+        /* Cor do texto */
+        color: #FFF;
+    
+        /* Tamanho da fonte */
+        font-size: 16px;
+    
+        /* Espaçamento interno */
+        padding: 10px 20px;
+    
+        /* Espaçamento externo */
+        margin: 10px;
+    
+        /* Borda */
+        border: none;
+        border-radius: 5px;
+    
+        /* Efeito de hover */
+        transition: background-color 0.3s ease;
+    
+        /* Cursor ao passar o mouse */
+        cursor: pointer;
+    }
+    
+    .botao:hover {
+        background-color: #900;
+    }
+
+    body{
+        background-color: black;
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight: bold;
+    }
