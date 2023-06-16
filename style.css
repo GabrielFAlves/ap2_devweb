@@ -16,7 +16,7 @@
     }
 
     body{
-        background-color: black;
+        background-color: rgb(1, 0, 20);
         font-family: 'Nunito Sans', sans-serif;
         font-weight: bold;
     }
@@ -26,6 +26,13 @@
         align-items: center;
         justify-content: center;
         color: white;
+    }
+
+    img{
+        border-radius: 50%;
+        border-width: 5px;
+        border-color: rgb(35, 137, 184);
+        border-style: solid;
     }
 }
 
@@ -45,7 +52,7 @@
     }
 
     body{
-        background-color: black;
+        background-color: rgb(1, 0, 20);
         font-family: 'Nunito Sans', sans-serif;
         font-weight: bold;
     }
@@ -55,6 +62,13 @@
         align-items: center;
         justify-content: center;
         color: white;
+    }
+
+    img{
+        border-radius: 50%;
+        border-width: 5px;
+        border-color: rgb(35, 137, 184);
+        border-style: solid;
     }
     
 }
@@ -72,11 +86,10 @@
         max-width: 100%;
         height: auto;
         font-size: 10px;
-        
     }
 
     body{
-        background-color: black;
+        background-color: rgb(1, 0, 20);
         font-family: 'Nunito Sans', sans-serif;
         font-weight: bold;
     }
@@ -86,5 +99,12 @@
         align-items: center;
         justify-content: center;
         color: white;
+    }
+
+    img{
+        border-radius: 50%;
+        border-width: 5px;
+        border-color: rgb(35, 137, 184);
+        border-style: solid;
     }
 }

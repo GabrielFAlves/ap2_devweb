@@ -56,7 +56,14 @@ html, body {
     }
 
     body{
-        background-color: black;
+        background-color: rgb(1, 0, 20);
         font-family: 'Nunito Sans', sans-serif;
         font-weight: bold;
+    }
+
+    img{
+        border-radius: 50%;
+        border-width: 5px;
+        border-color: rgb(35, 137, 184);
+        border-style: solid;
     }
