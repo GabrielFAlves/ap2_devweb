@@ -1,22 +1,12 @@
-window.onload = () => {
-    carregarJogadores()
-}
+const div_elenco_fem = document.getElementById('elenco_fem')
+const div_elenco_masc = document.getElementById('elenco_masc')
 
-//puxando os elementos
-let elencoFeminino = document.getElementById('elenco_fem')
-
-let elencoMasculino = document.getElementById('elenco_masc')
-
-
-
-
-//functions
 const carregarJogadores = () => {  
    jogadores.forEach((jogador, indice)=>{
         if(jogador["elenco"] == "feminino"){
-            elencoFeminino.innerHTML += `
+            div_elenco_fem.innerHTML += `
 
-            <div id="jogador${indice}" onclick="salvarInformacoes(${indice})">
+            <div id="jogador${indice}" onclick="informacoes(${indice})">
                 <img src="${jogador["imagem"]}">
                 <h1>${jogador["nome"]}</h1>
             </div>
@@ -24,24 +14,19 @@ const carregarJogadores = () => {
             `;
 
         } else {
-            elencoMasculino.innerHTML += `
+            div_elenco_masc.innerHTML += `
 
-            <div id="jogador${indice}" onclick="salvarInformacoes(${indice})">
+            <div id="jogador${indice}" onclick="informacoes(${indice})">
                 <img src="${jogador["imagem"]}">
                 <h1>${jogador["nome"]}</h1>
             </div>
     
             `;
         }
-        
    })
 }
 
-
-
-
-
-function salvarInformacoes(indiceJogador) {
+function informacoes(indiceJogador) {
     const jogador = jogadores[indiceJogador];
     console.log('falhou')
     localStorage.setItem('@Nome', jogador.nome)
@@ -52,6 +37,9 @@ function salvarInformacoes(indiceJogador) {
     localStorage.setItem('@Nascimento', jogador.nascimento)
     localStorage.setItem('@Altura', jogador.altura);
 
-
     window.location.href = './detalhes.html'
+}
+
+window.onload = () => {
+    carregarJogadores()
 }
