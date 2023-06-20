@@ -2,7 +2,7 @@ const detalhes_div = document.getElementById('detalhes')
 const boltar_botao = document.getElementById('voltar')
 
 boltar_botao.addEventListener('click', ()=>{
-    window.location.href = '../'
+    window.history.back();
 })
 
 
