@@ -13,6 +13,8 @@ function perfil_jogador(){
     <h2>${localStorage.getItem('@Posicao')}</h2>
     <p>${localStorage.getItem('@Descricao')}</p>
     <strong>Nome completo: </strong> <span> ${localStorage.getItem('@NomeCompleto')} </span>
+    <p>${localStorage.getItem('@Nascimento')}</p>
+    <p>${localStorage.getItem('@Altura')}</p>
     
     `;
 }
