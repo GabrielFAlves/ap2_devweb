@@ -1,15 +1,5 @@
 const jogadores = [
     {
-        "elenco": "masculino",
-        "nome": "Sopão",
-        "posicao": "Atacante",
-        "imagem": "caio.jpg",
-        "descricao": "Conheça Caio: uma pessoa trans inspiradora e autêntica! Com uma alma iluminada e coração acolhedor, João traz consigo uma história de coragem e determinação ao abraçar sua verdadeira identidade de gênero.",
-        "nome_completo": "Caio Sopao Farrula",
-        "nascimento": "07/04/2004, Cascavel (PR)",
-        "altura": "1.73",
-    },
-    {
         "elenco": "feminino",
         "nome": "MARI ZANELLA",
         "posicao": "Goleira",
@@ -698,5 +688,15 @@ const jogadores = [
         "nome_completo": "Diego Manuel Hernández González",
         "nascimento": "22/06/2000, em Montevideo (URU)",
         "altura": "1,75m"
+    },
+     {
+        "elenco": "masculino",
+        "nome": "Sopão",
+        "posicao": "Atacante",
+        "imagem": "caio.jpg",
+        "descricao": "Conheça Caio: uma pessoa trans inspiradora e autêntica! Com uma alma iluminada e coração acolhedor, João traz consigo uma história de coragem e determinação ao abraçar sua verdadeira identidade de gênero.",
+        "nome_completo": "Caio Sopao Farrula",
+        "nascimento": "07/04/2004, Cascavel (PR)",
+        "altura": "1.73",
     }
 ];
