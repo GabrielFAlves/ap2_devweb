@@ -1,9 +1,9 @@
 const jogadores = [
     {
-        "elenco": "feminino",
+        "elenco": "masculino",
         "nome": "Sopão",
         "posicao": "Atacante",
-        "imagem": "https://www.facebook.com/photo/?fbid=3247696785334721&set=a.111271528977278",
+        "imagem": "caio.jpg",
         "descricao": "Conheça Caio: uma pessoa trans inspiradora e autêntica! Com uma alma iluminada e coração acolhedor, João traz consigo uma história de coragem e determinação ao abraçar sua verdadeira identidade de gênero.",
         "nome_completo": "Caio Sopao Farrula",
         "nascimento": "07/04/2004, Cascavel (PR)",
