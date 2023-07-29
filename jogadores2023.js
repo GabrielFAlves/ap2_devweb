@@ -1,6 +1,16 @@
 const jogadores = [
     {
         "elenco": "feminino",
+        "nome": "Sopão",
+        "posicao": "Atacante",
+        "imagem": "https://www.facebook.com/photo/?fbid=3247696785334721&set=a.111271528977278",
+        "descricao": "Conheça Caio: uma pessoa trans inspiradora e autêntica! Com uma alma iluminada e coração acolhedor, João traz consigo uma história de coragem e determinação ao abraçar sua verdadeira identidade de gênero.",
+        "nome_completo": "Caio Sopao Farrula",
+        "nascimento": "07/04/2004, Cascavel (PR)",
+        "altura": "1.73",
+    },
+    {
+        "elenco": "feminino",
         "nome": "MARI ZANELLA",
         "posicao": "Goleira",
         "imagem": "https://botafogo.com.br/images/futebol-feminino/perfil/mari-zanella.png",
